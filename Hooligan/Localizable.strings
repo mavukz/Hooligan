@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  Hooligan
+
+  Created by Luntu Mavukuza on 2022/09/27.
+  
+*/
+
+"OK" = "Ok";
+"NO_INTERNET_CONNECTION" = "No internet connection.";
+"GENERAL_INTERNET_ERROR_MESSAGE" = "There was a technical error please try again later.";

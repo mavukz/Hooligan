@@ -9,13 +9,33 @@
 /* Begin PBXBuildFile section */
 		4C29C92D28E31F8800C363D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C29C92C28E31F8800C363D0 /* AppDelegate.swift */; };
 		4C29C92F28E31F8800C363D0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C29C92E28E31F8800C363D0 /* SceneDelegate.swift */; };
-		4C29C93128E31F8800C363D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C29C93028E31F8800C363D0 /* ViewController.swift */; };
-		4C29C93428E31F8800C363D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C29C93228E31F8800C363D0 /* Main.storyboard */; };
 		4C29C93628E31F8900C363D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C29C93528E31F8900C363D0 /* Assets.xcassets */; };
 		4C29C93928E31F8900C363D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C29C93728E31F8900C363D0 /* LaunchScreen.storyboard */; };
 		4C29C94428E31F8A00C363D0 /* HooliganTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C29C94328E31F8A00C363D0 /* HooliganTests.swift */; };
 		4C29C94E28E31F8A00C363D0 /* HooliganUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C29C94D28E31F8A00C363D0 /* HooliganUITests.swift */; };
 		4C29C95028E31F8A00C363D0 /* HooliganUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C29C94F28E31F8A00C363D0 /* HooliganUITestsLaunchTests.swift */; };
+		4C29C96128E3245C00C363D0 /* MainTaBarStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C29C96028E3245C00C363D0 /* MainTaBarStoryboard.storyboard */; };
+		4C29C96328E3247A00C363D0 /* EventsStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C29C96228E3247A00C363D0 /* EventsStoryboard.storyboard */; };
+		4C29C96528E324A100C363D0 /* ScheduleStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C29C96428E324A100C363D0 /* ScheduleStoryboard.storyboard */; };
+		4C29C96728E324C500C363D0 /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C29C96628E324C500C363D0 /* EventsViewController.swift */; };
+		4C29C96928E324D600C363D0 /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C29C96828E324D600C363D0 /* ScheduleViewController.swift */; };
+		4C29C96E28E327D300C363D0 /* EventsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C29C96D28E327D300C363D0 /* EventsInteractor.swift */; };
+		4C29C97028E327DF00C363D0 /* EventsBoundary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C29C96F28E327DF00C363D0 /* EventsBoundary.swift */; };
+		4C29C97528E3284E00C363D0 /* EventsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C29C97428E3284E00C363D0 /* EventsViewModelTests.swift */; };
+		4C29C97728E3287700C363D0 /* ScheduleViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C29C97628E3287700C363D0 /* ScheduleViewModelTests.swift */; };
+		4C29C97D28E328DD00C363D0 /* WebServicesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C29C97C28E328DD00C363D0 /* WebServicesManager.swift */; };
+		4C3EB74C28E379780053285D /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 4C3EB74B28E379780053285D /* Alamofire */; };
+		4CE7537B28E37C0C009E65B3 /* JSONLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE7537A28E37C0C009E65B3 /* JSONLogger.swift */; };
+		4CE7537D28E37D22009E65B3 /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE7537C28E37D22009E65B3 /* Array+Extensions.swift */; };
+		4CE7537F28E37D53009E65B3 /* Error+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE7537E28E37D53009E65B3 /* Error+Extensions.swift */; };
+		4CE7538128E37D8D009E65B3 /* UIApplication+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE7538028E37D8D009E65B3 /* UIApplication+Extensions.swift */; };
+		4CE7538328E37DCC009E65B3 /* UINavigationViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE7538228E37DCC009E65B3 /* UINavigationViewController+Extensions.swift */; };
+		4CE7538528E37E2C009E65B3 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE7538428E37E2C009E65B3 /* Date+Extensions.swift */; };
+		4CE7538828E37F06009E65B3 /* BaseViewModelDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE7538728E37F06009E65B3 /* BaseViewModelDelegate.swift */; };
+		4CE7538B28E37F85009E65B3 /* TypeAliases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE7538A28E37F85009E65B3 /* TypeAliases.swift */; };
+		4CE7538D28E38135009E65B3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4CE7538C28E38135009E65B3 /* Localizable.strings */; };
+		4CE7539128E38399009E65B3 /* EventsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE7539028E38399009E65B3 /* EventsViewModel.swift */; };
+		4CE7539528E38406009E65B3 /* ScheduleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE7539428E38406009E65B3 /* ScheduleViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +59,6 @@
 		4C29C92928E31F8800C363D0 /* Hooligan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hooligan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C29C92C28E31F8800C363D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4C29C92E28E31F8800C363D0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4C29C93028E31F8800C363D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4C29C93328E31F8800C363D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4C29C93528E31F8900C363D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C29C93828E31F8900C363D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C29C93A28E31F8900C363D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +67,27 @@
 		4C29C94928E31F8A00C363D0 /* HooliganUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HooliganUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C29C94D28E31F8A00C363D0 /* HooliganUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HooliganUITests.swift; sourceTree = "<group>"; };
 		4C29C94F28E31F8A00C363D0 /* HooliganUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HooliganUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4C29C96028E3245C00C363D0 /* MainTaBarStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainTaBarStoryboard.storyboard; sourceTree = "<group>"; };
+		4C29C96228E3247A00C363D0 /* EventsStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = EventsStoryboard.storyboard; sourceTree = "<group>"; };
+		4C29C96428E324A100C363D0 /* ScheduleStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ScheduleStoryboard.storyboard; sourceTree = "<group>"; };
+		4C29C96628E324C500C363D0 /* EventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
+		4C29C96828E324D600C363D0 /* ScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
+		4C29C96D28E327D300C363D0 /* EventsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsInteractor.swift; sourceTree = "<group>"; };
+		4C29C96F28E327DF00C363D0 /* EventsBoundary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsBoundary.swift; sourceTree = "<group>"; };
+		4C29C97428E3284E00C363D0 /* EventsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsViewModelTests.swift; sourceTree = "<group>"; };
+		4C29C97628E3287700C363D0 /* ScheduleViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewModelTests.swift; sourceTree = "<group>"; };
+		4C29C97C28E328DD00C363D0 /* WebServicesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServicesManager.swift; sourceTree = "<group>"; };
+		4CE7537A28E37C0C009E65B3 /* JSONLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONLogger.swift; sourceTree = "<group>"; };
+		4CE7537C28E37D22009E65B3 /* Array+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extensions.swift"; sourceTree = "<group>"; };
+		4CE7537E28E37D53009E65B3 /* Error+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Error+Extensions.swift"; sourceTree = "<group>"; };
+		4CE7538028E37D8D009E65B3 /* UIApplication+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extensions.swift"; sourceTree = "<group>"; };
+		4CE7538228E37DCC009E65B3 /* UINavigationViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationViewController+Extensions.swift"; sourceTree = "<group>"; };
+		4CE7538428E37E2C009E65B3 /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
+		4CE7538728E37F06009E65B3 /* BaseViewModelDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModelDelegate.swift; sourceTree = "<group>"; };
+		4CE7538A28E37F85009E65B3 /* TypeAliases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeAliases.swift; sourceTree = "<group>"; };
+		4CE7538C28E38135009E65B3 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		4CE7539028E38399009E65B3 /* EventsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsViewModel.swift; sourceTree = "<group>"; };
+		4CE7539428E38406009E65B3 /* ScheduleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C3EB74C28E379780053285D /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,13 +139,14 @@
 		4C29C92B28E31F8800C363D0 /* Hooligan */ = {
 			isa = PBXGroup;
 			children = (
+				4C29C96A28E3278D00C363D0 /* Utilities */,
+				4C29C95C28E323DB00C363D0 /* Features */,
 				4C29C92C28E31F8800C363D0 /* AppDelegate.swift */,
 				4C29C92E28E31F8800C363D0 /* SceneDelegate.swift */,
-				4C29C93028E31F8800C363D0 /* ViewController.swift */,
-				4C29C93228E31F8800C363D0 /* Main.storyboard */,
 				4C29C93528E31F8900C363D0 /* Assets.xcassets */,
 				4C29C93728E31F8900C363D0 /* LaunchScreen.storyboard */,
 				4C29C93A28E31F8900C363D0 /* Info.plist */,
+				4CE7538C28E38135009E65B3 /* Localizable.strings */,
 			);
 			path = Hooligan;
 			sourceTree = "<group>";
@@ -113,6 +154,7 @@
 		4C29C94228E31F8A00C363D0 /* HooliganTests */ = {
 			isa = PBXGroup;
 			children = (
+				4C29C97128E3281700C363D0 /* Features */,
 				4C29C94328E31F8A00C363D0 /* HooliganTests.swift */,
 			);
 			path = HooliganTests;
@@ -125,6 +167,191 @@
 				4C29C94F28E31F8A00C363D0 /* HooliganUITestsLaunchTests.swift */,
 			);
 			path = HooliganUITests;
+			sourceTree = "<group>";
+		};
+		4C29C95C28E323DB00C363D0 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				4C29C95D28E323E200C363D0 /* Main Tab Bar */,
+				4C29C95E28E323F700C363D0 /* Events */,
+				4C29C95F28E3240F00C363D0 /* Schedule */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		4C29C95D28E323E200C363D0 /* Main Tab Bar */ = {
+			isa = PBXGroup;
+			children = (
+				4C29C96028E3245C00C363D0 /* MainTaBarStoryboard.storyboard */,
+			);
+			path = "Main Tab Bar";
+			sourceTree = "<group>";
+		};
+		4C29C95E28E323F700C363D0 /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				4CE7538F28E3837B009E65B3 /* View Model */,
+				4CE7538E28E38369009E65B3 /* View */,
+			);
+			path = Events;
+			sourceTree = "<group>";
+		};
+		4C29C95F28E3240F00C363D0 /* Schedule */ = {
+			isa = PBXGroup;
+			children = (
+				4CE7539328E383F0009E65B3 /* View Model */,
+				4CE7539228E383EB009E65B3 /* View */,
+			);
+			path = Schedule;
+			sourceTree = "<group>";
+		};
+		4C29C96A28E3278D00C363D0 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				4CE7538928E37F74009E65B3 /* Type Aliases */,
+				4CE7538628E37EDC009E65B3 /* Base View Model Delegate */,
+				4CE7537928E37BFB009E65B3 /* JSON Logger */,
+				4C29C97928E328A000C363D0 /* Extensions */,
+				4C29C97828E3289800C363D0 /* Managers */,
+				4C29C96B28E327A000C363D0 /* Interactors */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		4C29C96B28E327A000C363D0 /* Interactors */ = {
+			isa = PBXGroup;
+			children = (
+				4C29C96C28E327B000C363D0 /* Events */,
+			);
+			path = Interactors;
+			sourceTree = "<group>";
+		};
+		4C29C96C28E327B000C363D0 /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				4C29C96F28E327DF00C363D0 /* EventsBoundary.swift */,
+				4C29C96D28E327D300C363D0 /* EventsInteractor.swift */,
+			);
+			path = Events;
+			sourceTree = "<group>";
+		};
+		4C29C97128E3281700C363D0 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				4C29C97228E3281E00C363D0 /* Events */,
+				4C29C97328E3282300C363D0 /* Schedule */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		4C29C97228E3281E00C363D0 /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				4C29C97428E3284E00C363D0 /* EventsViewModelTests.swift */,
+			);
+			path = Events;
+			sourceTree = "<group>";
+		};
+		4C29C97328E3282300C363D0 /* Schedule */ = {
+			isa = PBXGroup;
+			children = (
+				4C29C97628E3287700C363D0 /* ScheduleViewModelTests.swift */,
+			);
+			path = Schedule;
+			sourceTree = "<group>";
+		};
+		4C29C97828E3289800C363D0 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				4C29C97C28E328DD00C363D0 /* WebServicesManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		4C29C97928E328A000C363D0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4C29C97B28E328C100C363D0 /* Generic */,
+				4C29C97A28E328A700C363D0 /* UIKit */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4C29C97A28E328A700C363D0 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				4CE7538028E37D8D009E65B3 /* UIApplication+Extensions.swift */,
+				4CE7538228E37DCC009E65B3 /* UINavigationViewController+Extensions.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		4C29C97B28E328C100C363D0 /* Generic */ = {
+			isa = PBXGroup;
+			children = (
+				4CE7537C28E37D22009E65B3 /* Array+Extensions.swift */,
+				4CE7537E28E37D53009E65B3 /* Error+Extensions.swift */,
+				4CE7538428E37E2C009E65B3 /* Date+Extensions.swift */,
+			);
+			path = Generic;
+			sourceTree = "<group>";
+		};
+		4CE7537928E37BFB009E65B3 /* JSON Logger */ = {
+			isa = PBXGroup;
+			children = (
+				4CE7537A28E37C0C009E65B3 /* JSONLogger.swift */,
+			);
+			path = "JSON Logger";
+			sourceTree = "<group>";
+		};
+		4CE7538628E37EDC009E65B3 /* Base View Model Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				4CE7538728E37F06009E65B3 /* BaseViewModelDelegate.swift */,
+			);
+			path = "Base View Model Delegate";
+			sourceTree = "<group>";
+		};
+		4CE7538928E37F74009E65B3 /* Type Aliases */ = {
+			isa = PBXGroup;
+			children = (
+				4CE7538A28E37F85009E65B3 /* TypeAliases.swift */,
+			);
+			path = "Type Aliases";
+			sourceTree = "<group>";
+		};
+		4CE7538E28E38369009E65B3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4C29C96228E3247A00C363D0 /* EventsStoryboard.storyboard */,
+				4C29C96628E324C500C363D0 /* EventsViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4CE7538F28E3837B009E65B3 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				4CE7539028E38399009E65B3 /* EventsViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		4CE7539228E383EB009E65B3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4C29C96428E324A100C363D0 /* ScheduleStoryboard.storyboard */,
+				4C29C96828E324D600C363D0 /* ScheduleViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4CE7539328E383F0009E65B3 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				4CE7539428E38406009E65B3 /* ScheduleViewModel.swift */,
+			);
+			path = "View Model";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +370,9 @@
 			dependencies = (
 			);
 			name = Hooligan;
+			packageProductDependencies = (
+				4C3EB74B28E379780053285D /* Alamofire */,
+			);
 			productName = Hooligan;
 			productReference = 4C29C92928E31F8800C363D0 /* Hooligan.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +445,9 @@
 				Base,
 			);
 			mainGroup = 4C29C92028E31F8700C363D0;
+			packageReferences = (
+				4C3EB74A28E379780053285D /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 4C29C92A28E31F8800C363D0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,9 +464,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C29C96328E3247A00C363D0 /* EventsStoryboard.storyboard in Resources */,
+				4CE7538D28E38135009E65B3 /* Localizable.strings in Resources */,
+				4C29C96128E3245C00C363D0 /* MainTaBarStoryboard.storyboard in Resources */,
 				4C29C93928E31F8900C363D0 /* LaunchScreen.storyboard in Resources */,
 				4C29C93628E31F8900C363D0 /* Assets.xcassets in Resources */,
-				4C29C93428E31F8800C363D0 /* Main.storyboard in Resources */,
+				4C29C96528E324A100C363D0 /* ScheduleStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +494,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C29C93128E31F8800C363D0 /* ViewController.swift in Sources */,
+				4CE7538128E37D8D009E65B3 /* UIApplication+Extensions.swift in Sources */,
+				4CE7539128E38399009E65B3 /* EventsViewModel.swift in Sources */,
+				4CE7537F28E37D53009E65B3 /* Error+Extensions.swift in Sources */,
+				4CE7538828E37F06009E65B3 /* BaseViewModelDelegate.swift in Sources */,
+				4CE7538B28E37F85009E65B3 /* TypeAliases.swift in Sources */,
+				4CE7539528E38406009E65B3 /* ScheduleViewModel.swift in Sources */,
+				4CE7538328E37DCC009E65B3 /* UINavigationViewController+Extensions.swift in Sources */,
+				4CE7538528E37E2C009E65B3 /* Date+Extensions.swift in Sources */,
 				4C29C92D28E31F8800C363D0 /* AppDelegate.swift in Sources */,
+				4CE7537D28E37D22009E65B3 /* Array+Extensions.swift in Sources */,
+				4C29C97D28E328DD00C363D0 /* WebServicesManager.swift in Sources */,
 				4C29C92F28E31F8800C363D0 /* SceneDelegate.swift in Sources */,
+				4C29C96E28E327D300C363D0 /* EventsInteractor.swift in Sources */,
+				4C29C96728E324C500C363D0 /* EventsViewController.swift in Sources */,
+				4CE7537B28E37C0C009E65B3 /* JSONLogger.swift in Sources */,
+				4C29C97028E327DF00C363D0 /* EventsBoundary.swift in Sources */,
+				4C29C96928E324D600C363D0 /* ScheduleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +519,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C29C94428E31F8A00C363D0 /* HooliganTests.swift in Sources */,
+				4C29C97728E3287700C363D0 /* ScheduleViewModelTests.swift in Sources */,
+				4C29C97528E3284E00C363D0 /* EventsViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +549,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4C29C93228E31F8800C363D0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4C29C93328E31F8800C363D0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4C29C93728E31F8900C363D0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -441,7 +685,7 @@
 				INFOPLIST_FILE = Hooligan/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = MainTaBarStoryboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -468,7 +712,7 @@
 				INFOPLIST_FILE = Hooligan/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = MainTaBarStoryboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -596,6 +840,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4C3EB74A28E379780053285D /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4C3EB74B28E379780053285D /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4C3EB74A28E379780053285D /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4C29C92128E31F8700C363D0 /* Project object */;
 }
