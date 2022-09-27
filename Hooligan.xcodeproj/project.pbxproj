@@ -15,8 +15,6 @@
 		4C29C94E28E31F8A00C363D0 /* HooliganUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C29C94D28E31F8A00C363D0 /* HooliganUITests.swift */; };
 		4C29C95028E31F8A00C363D0 /* HooliganUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C29C94F28E31F8A00C363D0 /* HooliganUITestsLaunchTests.swift */; };
 		4C29C96128E3245C00C363D0 /* MainTabBarStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C29C96028E3245C00C363D0 /* MainTabBarStoryboard.storyboard */; };
-		4C29C96328E3247A00C363D0 /* EventsStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C29C96228E3247A00C363D0 /* EventsStoryboard.storyboard */; };
-		4C29C96528E324A100C363D0 /* ScheduleStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C29C96428E324A100C363D0 /* ScheduleStoryboard.storyboard */; };
 		4C29C96728E324C500C363D0 /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C29C96628E324C500C363D0 /* EventsViewController.swift */; };
 		4C29C96928E324D600C363D0 /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C29C96828E324D600C363D0 /* ScheduleViewController.swift */; };
 		4C29C96E28E327D300C363D0 /* EventsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C29C96D28E327D300C363D0 /* EventsInteractor.swift */; };
@@ -40,6 +38,10 @@
 		4CE7539C28E390F1009E65B3 /* ScheduleResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE7539B28E390F1009E65B3 /* ScheduleResponseModel.swift */; };
 		4CE7539E28E39110009E65B3 /* ScheduleBoundary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE7539D28E39110009E65B3 /* ScheduleBoundary.swift */; };
 		4CE753A028E39127009E65B3 /* ScheduleInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE7539F28E39127009E65B3 /* ScheduleInteractor.swift */; };
+		4CE753A428E3A285009E65B3 /* PlayerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE753A328E3A285009E65B3 /* PlayerTableViewCell.swift */; };
+		4CE753A628E3A2A5009E65B3 /* PlayerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CE753A528E3A2A5009E65B3 /* PlayerTableViewCell.xib */; };
+		4CE753A828E3A5CB009E65B3 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE753A728E3A5CB009E65B3 /* UIColor+Extensions.swift */; };
+		4CE753AA28E3A5E0009E65B3 /* UIFont+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE753A928E3A5DF009E65B3 /* UIFont+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,8 +74,6 @@
 		4C29C94D28E31F8A00C363D0 /* HooliganUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HooliganUITests.swift; sourceTree = "<group>"; };
 		4C29C94F28E31F8A00C363D0 /* HooliganUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HooliganUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		4C29C96028E3245C00C363D0 /* MainTabBarStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainTabBarStoryboard.storyboard; sourceTree = "<group>"; };
-		4C29C96228E3247A00C363D0 /* EventsStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = EventsStoryboard.storyboard; sourceTree = "<group>"; };
-		4C29C96428E324A100C363D0 /* ScheduleStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ScheduleStoryboard.storyboard; sourceTree = "<group>"; };
 		4C29C96628E324C500C363D0 /* EventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
 		4C29C96828E324D600C363D0 /* ScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
 		4C29C96D28E327D300C363D0 /* EventsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsInteractor.swift; sourceTree = "<group>"; };
@@ -96,6 +96,10 @@
 		4CE7539B28E390F1009E65B3 /* ScheduleResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleResponseModel.swift; sourceTree = "<group>"; };
 		4CE7539D28E39110009E65B3 /* ScheduleBoundary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleBoundary.swift; sourceTree = "<group>"; };
 		4CE7539F28E39127009E65B3 /* ScheduleInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleInteractor.swift; sourceTree = "<group>"; };
+		4CE753A328E3A285009E65B3 /* PlayerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerTableViewCell.swift; sourceTree = "<group>"; };
+		4CE753A528E3A2A5009E65B3 /* PlayerTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlayerTableViewCell.xib; sourceTree = "<group>"; };
+		4CE753A728E3A5CB009E65B3 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		4CE753A928E3A5DF009E65B3 /* UIFont+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,6 +184,7 @@
 		4C29C95C28E323DB00C363D0 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				4CE753A228E3A23F009E65B3 /* Player Table View Cell */,
 				4C29C95D28E323E200C363D0 /* Main Tab Bar */,
 				4C29C95E28E323F700C363D0 /* Events */,
 				4C29C95F28E3240F00C363D0 /* Schedule */,
@@ -292,6 +297,8 @@
 			children = (
 				4CE7538028E37D8D009E65B3 /* UIApplication+Extensions.swift */,
 				4CE7538228E37DCC009E65B3 /* UINavigationViewController+Extensions.swift */,
+				4CE753A728E3A5CB009E65B3 /* UIColor+Extensions.swift */,
+				4CE753A928E3A5DF009E65B3 /* UIFont+Extensions.swift */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -333,7 +340,6 @@
 		4CE7538E28E38369009E65B3 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				4C29C96228E3247A00C363D0 /* EventsStoryboard.storyboard */,
 				4C29C96628E324C500C363D0 /* EventsViewController.swift */,
 			);
 			path = View;
@@ -350,7 +356,6 @@
 		4CE7539228E383EB009E65B3 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				4C29C96428E324A100C363D0 /* ScheduleStoryboard.storyboard */,
 				4C29C96828E324D600C363D0 /* ScheduleViewController.swift */,
 			);
 			path = View;
@@ -388,6 +393,15 @@
 				4CE7539B28E390F1009E65B3 /* ScheduleResponseModel.swift */,
 			);
 			path = "Response Model";
+			sourceTree = "<group>";
+		};
+		4CE753A228E3A23F009E65B3 /* Player Table View Cell */ = {
+			isa = PBXGroup;
+			children = (
+				4CE753A328E3A285009E65B3 /* PlayerTableViewCell.swift */,
+				4CE753A528E3A2A5009E65B3 /* PlayerTableViewCell.xib */,
+			);
+			path = "Player Table View Cell";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -500,12 +514,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C29C96328E3247A00C363D0 /* EventsStoryboard.storyboard in Resources */,
 				4CE7538D28E38135009E65B3 /* Localizable.strings in Resources */,
 				4C29C96128E3245C00C363D0 /* MainTabBarStoryboard.storyboard in Resources */,
+				4CE753A628E3A2A5009E65B3 /* PlayerTableViewCell.xib in Resources */,
 				4C29C93928E31F8900C363D0 /* LaunchScreen.storyboard in Resources */,
 				4C29C93628E31F8900C363D0 /* Assets.xcassets in Resources */,
-				4C29C96528E324A100C363D0 /* ScheduleStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -540,6 +553,7 @@
 				4CE7538528E37E2C009E65B3 /* Date+Extensions.swift in Sources */,
 				4C29C92D28E31F8800C363D0 /* AppDelegate.swift in Sources */,
 				4CE753A028E39127009E65B3 /* ScheduleInteractor.swift in Sources */,
+				4CE753AA28E3A5E0009E65B3 /* UIFont+Extensions.swift in Sources */,
 				4CE7537D28E37D22009E65B3 /* Array+Extensions.swift in Sources */,
 				4C29C97D28E328DD00C363D0 /* WebServicesManager.swift in Sources */,
 				4C29C92F28E31F8800C363D0 /* SceneDelegate.swift in Sources */,
@@ -548,8 +562,10 @@
 				4CE7539C28E390F1009E65B3 /* ScheduleResponseModel.swift in Sources */,
 				4CE7537B28E37C0C009E65B3 /* JSONLogger.swift in Sources */,
 				4CE7539828E38FA6009E65B3 /* EventsResponseModel.swift in Sources */,
+				4CE753A428E3A285009E65B3 /* PlayerTableViewCell.swift in Sources */,
 				4C29C97028E327DF00C363D0 /* EventsBoundary.swift in Sources */,
 				4CE7539E28E39110009E65B3 /* ScheduleBoundary.swift in Sources */,
+				4CE753A828E3A5CB009E65B3 /* UIColor+Extensions.swift in Sources */,
 				4C29C96928E324D600C363D0 /* ScheduleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
