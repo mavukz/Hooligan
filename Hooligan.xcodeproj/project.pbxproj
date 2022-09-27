@@ -14,7 +14,7 @@
 		4C29C94428E31F8A00C363D0 /* HooliganTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C29C94328E31F8A00C363D0 /* HooliganTests.swift */; };
 		4C29C94E28E31F8A00C363D0 /* HooliganUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C29C94D28E31F8A00C363D0 /* HooliganUITests.swift */; };
 		4C29C95028E31F8A00C363D0 /* HooliganUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C29C94F28E31F8A00C363D0 /* HooliganUITestsLaunchTests.swift */; };
-		4C29C96128E3245C00C363D0 /* MainTaBarStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C29C96028E3245C00C363D0 /* MainTaBarStoryboard.storyboard */; };
+		4C29C96128E3245C00C363D0 /* MainTabBarStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C29C96028E3245C00C363D0 /* MainTabBarStoryboard.storyboard */; };
 		4C29C96328E3247A00C363D0 /* EventsStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C29C96228E3247A00C363D0 /* EventsStoryboard.storyboard */; };
 		4C29C96528E324A100C363D0 /* ScheduleStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C29C96428E324A100C363D0 /* ScheduleStoryboard.storyboard */; };
 		4C29C96728E324C500C363D0 /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C29C96628E324C500C363D0 /* EventsViewController.swift */; };
@@ -71,7 +71,7 @@
 		4C29C94928E31F8A00C363D0 /* HooliganUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HooliganUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C29C94D28E31F8A00C363D0 /* HooliganUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HooliganUITests.swift; sourceTree = "<group>"; };
 		4C29C94F28E31F8A00C363D0 /* HooliganUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HooliganUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		4C29C96028E3245C00C363D0 /* MainTaBarStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainTaBarStoryboard.storyboard; sourceTree = "<group>"; };
+		4C29C96028E3245C00C363D0 /* MainTabBarStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainTabBarStoryboard.storyboard; sourceTree = "<group>"; };
 		4C29C96228E3247A00C363D0 /* EventsStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = EventsStoryboard.storyboard; sourceTree = "<group>"; };
 		4C29C96428E324A100C363D0 /* ScheduleStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ScheduleStoryboard.storyboard; sourceTree = "<group>"; };
 		4C29C96628E324C500C363D0 /* EventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
@@ -190,7 +190,7 @@
 		4C29C95D28E323E200C363D0 /* Main Tab Bar */ = {
 			isa = PBXGroup;
 			children = (
-				4C29C96028E3245C00C363D0 /* MainTaBarStoryboard.storyboard */,
+				4C29C96028E3245C00C363D0 /* MainTabBarStoryboard.storyboard */,
 			);
 			path = "Main Tab Bar";
 			sourceTree = "<group>";
@@ -502,7 +502,7 @@
 			files = (
 				4C29C96328E3247A00C363D0 /* EventsStoryboard.storyboard in Resources */,
 				4CE7538D28E38135009E65B3 /* Localizable.strings in Resources */,
-				4C29C96128E3245C00C363D0 /* MainTaBarStoryboard.storyboard in Resources */,
+				4C29C96128E3245C00C363D0 /* MainTabBarStoryboard.storyboard in Resources */,
 				4C29C93928E31F8900C363D0 /* LaunchScreen.storyboard in Resources */,
 				4C29C93628E31F8900C363D0 /* Assets.xcassets in Resources */,
 				4C29C96528E324A100C363D0 /* ScheduleStoryboard.storyboard in Resources */,
@@ -725,7 +725,7 @@
 				INFOPLIST_FILE = Hooligan/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = MainTaBarStoryboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = MainTabBarStoryboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -752,7 +752,7 @@
 				INFOPLIST_FILE = Hooligan/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = MainTaBarStoryboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = MainTabBarStoryboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

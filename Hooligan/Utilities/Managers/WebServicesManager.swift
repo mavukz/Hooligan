@@ -36,9 +36,6 @@ class WebServicesManager<T: Codable> {
     private var hasInternetConnection: Bool {
         return NetworkReachabilityManager()?.isReachable ?? false
     }
-    private var baseApiHeaders: HTTPHeaders {
-        return ["": ""]
-    }
     // MARK: - Mutators
     func disableLogging() {
         self.loggable = false
@@ -61,8 +58,7 @@ class WebServicesManager<T: Codable> {
                 AF.request(fullUrl,
                            method: .get,
                            parameters: parameters,
-                           encoding: JSONEncoding.default,
-                           headers: baseApiHeaders).responseDecodable(of: T.self) { response in
+                           encoding: JSONEncoding.default).responseDecodable(of: T.self) { response in
                     continuation.resume(returning: self.handleResponse(response, for: .severless))
                 }
             }
