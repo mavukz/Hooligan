@@ -10,7 +10,6 @@ import Alamofire
 
 enum ResponseErrorType: Error {
     case unauthorized(String?)
-    case needsAppUpdate(String?)
     case notFound(String?)
     case generic(String?)
     case noInternet
@@ -33,7 +32,7 @@ class WebServicesManager<T: Codable> {
     
     // MARK: - Instance variables
     private var loggable = true
-    private let baseApiURL = ""
+    private let baseApiURL = "https://us-central1-dazn-sandbox.cloudfunctions.net"
     private var hasInternetConnection: Bool {
         return NetworkReachabilityManager()?.isReachable ?? false
     }
@@ -103,8 +102,6 @@ class WebServicesManager<T: Codable> {
                 return (nil, ResponseErrorType.unauthorized(message))
             } else if statusCode == 404 {
                 return (nil, ResponseErrorType.notFound(message))
-            } else if statusCode == 429 {
-                return (nil, ResponseErrorType.needsAppUpdate(message))
             } else {
                 return (nil, ResponseErrorType.generic(message))
             }

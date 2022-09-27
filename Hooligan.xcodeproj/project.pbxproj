@@ -36,6 +36,10 @@
 		4CE7538D28E38135009E65B3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4CE7538C28E38135009E65B3 /* Localizable.strings */; };
 		4CE7539128E38399009E65B3 /* EventsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE7539028E38399009E65B3 /* EventsViewModel.swift */; };
 		4CE7539528E38406009E65B3 /* ScheduleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE7539428E38406009E65B3 /* ScheduleViewModel.swift */; };
+		4CE7539828E38FA6009E65B3 /* EventsResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE7539728E38FA6009E65B3 /* EventsResponseModel.swift */; };
+		4CE7539C28E390F1009E65B3 /* ScheduleResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE7539B28E390F1009E65B3 /* ScheduleResponseModel.swift */; };
+		4CE7539E28E39110009E65B3 /* ScheduleBoundary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE7539D28E39110009E65B3 /* ScheduleBoundary.swift */; };
+		4CE753A028E39127009E65B3 /* ScheduleInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE7539F28E39127009E65B3 /* ScheduleInteractor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +92,10 @@
 		4CE7538C28E38135009E65B3 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		4CE7539028E38399009E65B3 /* EventsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsViewModel.swift; sourceTree = "<group>"; };
 		4CE7539428E38406009E65B3 /* ScheduleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewModel.swift; sourceTree = "<group>"; };
+		4CE7539728E38FA6009E65B3 /* EventsResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsResponseModel.swift; sourceTree = "<group>"; };
+		4CE7539B28E390F1009E65B3 /* ScheduleResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleResponseModel.swift; sourceTree = "<group>"; };
+		4CE7539D28E39110009E65B3 /* ScheduleBoundary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleBoundary.swift; sourceTree = "<group>"; };
+		4CE7539F28E39127009E65B3 /* ScheduleInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleInteractor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -222,6 +230,7 @@
 			isa = PBXGroup;
 			children = (
 				4C29C96C28E327B000C363D0 /* Events */,
+				4CE7539928E390C4009E65B3 /* Schedule */,
 			);
 			path = Interactors;
 			sourceTree = "<group>";
@@ -229,6 +238,7 @@
 		4C29C96C28E327B000C363D0 /* Events */ = {
 			isa = PBXGroup;
 			children = (
+				4CE7539628E38F95009E65B3 /* Response Model */,
 				4C29C96F28E327DF00C363D0 /* EventsBoundary.swift */,
 				4C29C96D28E327D300C363D0 /* EventsInteractor.swift */,
 			);
@@ -352,6 +362,32 @@
 				4CE7539428E38406009E65B3 /* ScheduleViewModel.swift */,
 			);
 			path = "View Model";
+			sourceTree = "<group>";
+		};
+		4CE7539628E38F95009E65B3 /* Response Model */ = {
+			isa = PBXGroup;
+			children = (
+				4CE7539728E38FA6009E65B3 /* EventsResponseModel.swift */,
+			);
+			path = "Response Model";
+			sourceTree = "<group>";
+		};
+		4CE7539928E390C4009E65B3 /* Schedule */ = {
+			isa = PBXGroup;
+			children = (
+				4CE7539A28E390D3009E65B3 /* Response Model */,
+				4CE7539D28E39110009E65B3 /* ScheduleBoundary.swift */,
+				4CE7539F28E39127009E65B3 /* ScheduleInteractor.swift */,
+			);
+			path = Schedule;
+			sourceTree = "<group>";
+		};
+		4CE7539A28E390D3009E65B3 /* Response Model */ = {
+			isa = PBXGroup;
+			children = (
+				4CE7539B28E390F1009E65B3 /* ScheduleResponseModel.swift */,
+			);
+			path = "Response Model";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -503,13 +539,17 @@
 				4CE7538328E37DCC009E65B3 /* UINavigationViewController+Extensions.swift in Sources */,
 				4CE7538528E37E2C009E65B3 /* Date+Extensions.swift in Sources */,
 				4C29C92D28E31F8800C363D0 /* AppDelegate.swift in Sources */,
+				4CE753A028E39127009E65B3 /* ScheduleInteractor.swift in Sources */,
 				4CE7537D28E37D22009E65B3 /* Array+Extensions.swift in Sources */,
 				4C29C97D28E328DD00C363D0 /* WebServicesManager.swift in Sources */,
 				4C29C92F28E31F8800C363D0 /* SceneDelegate.swift in Sources */,
 				4C29C96E28E327D300C363D0 /* EventsInteractor.swift in Sources */,
 				4C29C96728E324C500C363D0 /* EventsViewController.swift in Sources */,
+				4CE7539C28E390F1009E65B3 /* ScheduleResponseModel.swift in Sources */,
 				4CE7537B28E37C0C009E65B3 /* JSONLogger.swift in Sources */,
+				4CE7539828E38FA6009E65B3 /* EventsResponseModel.swift in Sources */,
 				4C29C97028E327DF00C363D0 /* EventsBoundary.swift in Sources */,
+				4CE7539E28E39110009E65B3 /* ScheduleBoundary.swift in Sources */,
 				4C29C96928E324D600C363D0 /* ScheduleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

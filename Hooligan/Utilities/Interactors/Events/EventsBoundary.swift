@@ -9,4 +9,5 @@ import Foundation
 
 protocol EventsBoundary {
     
+    func retrieveEvents() async throws -> [EventsResponseModel]?
 }
