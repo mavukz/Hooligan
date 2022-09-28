@@ -106,7 +106,7 @@ class ScheduleViewModel {
                 referenceList.append((id, date))
             }
         }
-        let sortedRefList = referenceList.sorted(by: { $0.date.compare($1.date) == .orderedDescending })
+        let sortedRefList = referenceList.sorted(by: { $0.date.compare($1.date) == .orderedAscending })
         sortedRefList.forEach {
             let id = $0.id
             if let responseItem = response?.first(where: { $0.id == id }) {
