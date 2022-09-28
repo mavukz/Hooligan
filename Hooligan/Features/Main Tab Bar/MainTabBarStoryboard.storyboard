@@ -46,10 +46,25 @@
                     <view key="view" contentMode="scaleToFill" id="C3M-VT-zey">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="jyY-zl-OsU">
+                                <rect key="frame" x="0.0" y="47" width="390" height="714"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="Ipc-uT-JpJ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="jyY-zl-OsU" firstAttribute="leading" secondItem="Ipc-uT-JpJ" secondAttribute="leading" id="5qC-3E-4vR"/>
+                            <constraint firstItem="jyY-zl-OsU" firstAttribute="top" secondItem="Ipc-uT-JpJ" secondAttribute="top" id="FQb-03-6nP"/>
+                            <constraint firstItem="Ipc-uT-JpJ" firstAttribute="bottom" secondItem="jyY-zl-OsU" secondAttribute="bottom" id="R8p-nd-K55"/>
+                            <constraint firstItem="Ipc-uT-JpJ" firstAttribute="trailing" secondItem="jyY-zl-OsU" secondAttribute="trailing" id="Ya1-tx-HUu"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Schedules" image="timer.circle" catalog="system" selectedImage="timer.circle.fill" id="hl4-Y9-y1d"/>
+                    <connections>
+                        <outlet property="scheduleTableView" destination="jyY-zl-OsU" id="VGf-8C-Tzp"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fvc-6b-yGZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

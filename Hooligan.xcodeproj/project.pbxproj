@@ -212,7 +212,7 @@
 			isa = PBXGroup;
 			children = (
 				4CE7538F28E3837B009E65B3 /* View Model */,
-				4CE7538E28E38369009E65B3 /* View */,
+				4CE7538E28E38369009E65B3 /* View Controller */,
 			);
 			path = Events;
 			sourceTree = "<group>";
@@ -221,7 +221,7 @@
 			isa = PBXGroup;
 			children = (
 				4CE7539328E383F0009E65B3 /* View Model */,
-				4CE7539228E383EB009E65B3 /* View */,
+				4CE7539228E383EB009E65B3 /* View Controller */,
 			);
 			path = Schedule;
 			sourceTree = "<group>";
@@ -356,12 +356,12 @@
 			path = "Type Aliases";
 			sourceTree = "<group>";
 		};
-		4CE7538E28E38369009E65B3 /* View */ = {
+		4CE7538E28E38369009E65B3 /* View Controller */ = {
 			isa = PBXGroup;
 			children = (
 				4C29C96628E324C500C363D0 /* EventsViewController.swift */,
 			);
-			path = View;
+			path = "View Controller";
 			sourceTree = "<group>";
 		};
 		4CE7538F28E3837B009E65B3 /* View Model */ = {
@@ -372,12 +372,12 @@
 			path = "View Model";
 			sourceTree = "<group>";
 		};
-		4CE7539228E383EB009E65B3 /* View */ = {
+		4CE7539228E383EB009E65B3 /* View Controller */ = {
 			isa = PBXGroup;
 			children = (
 				4C29C96828E324D600C363D0 /* ScheduleViewController.swift */,
 			);
-			path = View;
+			path = "View Controller";
 			sourceTree = "<group>";
 		};
 		4CE7539328E383F0009E65B3 /* View Model */ = {

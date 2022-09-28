@@ -27,6 +27,7 @@ class EventsViewController: UIViewController {
     private func configureUI() {
         eventsTableView.register(UINib(nibName: "PlayerTableViewCell", bundle: .main),
                                  forCellReuseIdentifier: "PlayerTableViewCell")
+        // can be set in IB
         eventsTableView.delegate = self
         eventsTableView.dataSource = self
     }
