@@ -30,7 +30,6 @@ class EventsViewModel {
     }
     
     // MARK: - Getters
-    
     var selectedPlayerVideoURL: URL? {
         guard let rowIndex = selectedIndexPath?.row,
               let urlString = eventsResponseModel?[safe: rowIndex]?.videoURL
