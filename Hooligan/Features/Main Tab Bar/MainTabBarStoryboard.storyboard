@@ -31,6 +31,9 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Events" image="location" catalog="system" selectedImage="location.fill" id="iJi-9z-rbc"/>
+                    <connections>
+                        <outlet property="eventsTableView" destination="5I8-VS-qcb" id="Yoo-c3-oLX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FZa-4f-ZEX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

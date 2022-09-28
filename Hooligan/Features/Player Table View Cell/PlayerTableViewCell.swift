@@ -15,6 +15,8 @@ class PlayerTableViewCell: UITableViewCell {
     @IBOutlet private var subtitleLabel: UILabel!
     @IBOutlet private var dateLabel: UILabel!
     
+    private(set) var dataModel: PlayerDataModel?
+    
     // MARK: - Lifecycle
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -22,8 +24,12 @@ class PlayerTableViewCell: UITableViewCell {
     }
     
     // MARK: - Configuration
-    func configure(with dataModel: String) {
-        // get data model object and set outlet values
+    func configure(with dataModel: PlayerDataModel) {
+        self.dataModel = dataModel
+        playerImageView.fromURLString(dataModel.imageURL)
+        titleLabel.text = dataModel.title
+        subtitleLabel.text = dataModel.subtitle
+        dateLabel.text = dataModel.date
     }
     
     // MARK: - Private

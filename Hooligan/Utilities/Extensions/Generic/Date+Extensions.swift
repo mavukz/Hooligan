@@ -8,8 +8,10 @@
 import Foundation
 
 enum HoolieDateFormatter: String {
+    case longZDateFormat = "yyyy-MM-dd'T'HH:mm:ss.SSSZ"
     case longDateFormat = "yyyy-MM-dd'T'HH:mm:ss"
     case simpleDateAndTimeFormat = "yyyy-MM-dd HH:mm"
+    case simpleDotDateFormat = "dd.MM.yyyy"
     case simpleDateFormat = "yyyy-MM-dd"
     case timeFormat = "hh:mm a"
     case month = "MM"
