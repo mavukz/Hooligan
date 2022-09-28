@@ -86,7 +86,7 @@ class EventsViewModel {
     
     private func formatDate(_ dateString: String?) -> String? {
         guard let safeDateString = dateString,
-              let date = String.date(safeDateString, format: .longZDateFormat)
+              let date = String.date(safeDateString, format: .longDateFormat)
         else { return nil }
         if Calendar.current.isDateInToday(date) {
             let time = date.string(format: .timeFormat)
@@ -108,7 +108,7 @@ class EventsViewModel {
         var referenceList: [IdDateType] = []
         response?.forEach {
             if let dateString = $0.date,
-               let date = String.date(dateString, format: .longZDateFormat),
+               let date = String.date(dateString, format: .longDateFormat),
                let id = $0.id {
                 referenceList.append((id, date))
             }
