@@ -22,12 +22,6 @@ enum ResponseErrorType: Error {
 
 class WebServicesManager<T: Codable> {
     
-    enum OC_APIs {
-        case severless
-        case node
-        case sanity
-    }
-    
     typealias WebServicesResponse = (result: T?, errorStatus: ResponseErrorType?)
     
     // MARK: - Instance variables
